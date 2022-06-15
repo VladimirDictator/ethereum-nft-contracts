@@ -1,0 +1,24 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x54707Cf7c9E6A6954e2493FE9a337224b3554601",
+    "txHash": "0x9cefcc3c76194f24ada2ef31354e4772f88fe9c07daa71dde41b3cef6c5f4fbb"
+  },
+  "proxies": [
+    {
+      "address": "0xb0FC0E79288Da9b95551840dc5eEA9396694cCC1",
+      "txHash": "0x9fbbf97c00b5bc40ce64a8e4d5469504b8e4b468ebd9e7ddcca434cae59cabe7",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "18b600146725131382c7dae5cc279b272c7f7ebaf8c9929d654200ad9e7c40b2": {
+      "address": "0xe6D8577b7f0Ea98603B2b8e1aa3722d6D7f83781",
+      "txHash": "0x2cfd112d29fac95f1fcf64c94dc2729e2b24bf5c31bd5284456cfebc2105c711",
+      "layout": {
+        "storage": [],
+        "types": {}
+      }
+    }
+  }
+}

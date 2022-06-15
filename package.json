@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@openzeppelin/truffle-upgrades": "^1.15.0",
+    "@truffle/hdwallet-provider": "^2.0.9",
+    "chai": "^4.3.6",
+    "ganache-cli": "^6.12.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.8",
+    "nft.storage": "^6.3.0",
+    "truffle-flattener": "^1.6.0"
+  }
+}
