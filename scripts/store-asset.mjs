@@ -11,12 +11,14 @@ async function storeAsset() {
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEQ5OEZFQUNFRTk2MTI1MjZCZTRiMmM3NDA2N2Y4OGNmRjk4ODZENTAiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY1NTMwMDAwMjAxMywibmFtZSI6IkRpY3RhdG9yIn0.QZioQa2obqZxdkx-_cIxeyUSpa37HfoFZM9msVs8VuQ',
   });
   const metadata = await client.store({
-    name: 'ExampleNFT',
-    description: 'My ExampleNFT is an awesome artwork!',
+    name: 'nft',
+    description: 'Red Dragon!',
     image: new File(
-      [await fs.promises.readFile('assets/MyExampleNFT.png')],
-      'MyExampleNFT.png',
-      { type: 'image/png' }
+      [await fs.promises.readFile('./assets/wolf.jpg')],
+      'wolf.jpg',
+      {
+        type: 'image/jpg',
+      }
     ),
   });
   console.log('Metadata stored on Filecoin and IPFS with URL:', metadata.url);
